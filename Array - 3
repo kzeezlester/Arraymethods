@@ -1,0 +1,10 @@
+const fruits = ["Mela", "Banana", "Kiwi", "Fragola"];
+
+function nameOfFruits(fruits) {
+    console.log(fruits + '!');
+}
+fruits.forEach(nameOfFruits);
+
+
+//OR YOU CAN USE THE OTHER MOTHOD OF THE CODE BELOW THE RESULT IS THE SAME 
+// fruits.forEach(nameOfFruits=>console.log(nameOfFruits + '!'));
